@@ -41,7 +41,6 @@
 
 /* header */
 .header {
-  background: #e7ca7e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,17 +49,18 @@
     width: 80%; }
   .header__input {
     box-sizing: content-box;
-    color: #757575;
+    color: #c9c9c9;
     text-align: center;
     width: 100%;
     background: transparent;
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid #c9c9c9;
     padding: 4px 0px;
     margin-bottom: 20px;
     font-size: 1.25rem; }
     .header__input:focus {
-      color: #444; }
+      color: #fff;
+      border-bottom-color: #fff; }
   .header__img {
     width: 200px;
     height: 200px;
@@ -71,12 +71,13 @@
     font-weight: 500;
     margin-top: 1.75rem;
     text-align: center;
-    line-height: 22px; }
+    line-height: 22px;
+    color: #c9c9c9; }
   .header__nickname {
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 0.75rem;
-    color: #444;
+    color: #c9c9c9;
     text-align: center;
     line-height: 20px; }
 
