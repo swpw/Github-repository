@@ -1,0 +1,52 @@
+// Bem
+=e($element)
+  &__#{$element}
+    @content
+
+=m($modifer)
+  &--#{$modifer}
+    @content
+
+// Variables
+$font-Roboto: 'Roboto', sans-seri
+
+$color-font: #444
+$color-font2: #c9c9c9
+$color-font3: #4183c4
+$color-background: #f7f7f7
+$color1: #e7ca7e
+$color2: #757575
+$color3: #181818
+$color4: #474747
+
+$padding1: 25px
+$padding2: 20px
+$padding3: 15px
+
+$width-ext: 370px
+
+// Stylings
+*, *::before, *::after
+  box-sizing: border-box
+  outline: none
+
+.is-not-visible
+  display: none
+
+.star
+  box-sizing: content-box
+  padding-right: 5px
+
+.fork
+  box-sizing: content-box
+  padding-right: 5px
+
+// Imports
+@import popup.sass
+
+// Animations
+@keyframes loaderAnimation
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)
