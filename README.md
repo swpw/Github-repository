@@ -3,7 +3,7 @@ This extension allows users to quickly check github repositories. Downside, you 
 
 ## Getting started
 ### 1. Usage
-Install extension from [chrome web store](link).
+Install extension from [chrome web store](https://chrome.google.com/webstore/detail/github-repos/eckkmemfdkbdcopefllbfheimcbhnapd).
 
 ### 2. Development
 
